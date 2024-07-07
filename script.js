@@ -61,3 +61,33 @@ scrollBottom.forEach((el) => observer.observe(el));
 
 const scrollScale = document.querySelectorAll(".scroll-scale");
 scrollScale.forEach((el) => observer.observe(el));
+
+
+// Login form
+
+let labels = document.querySelectorAll("label");
+
+labels.forEach((label) => {
+    label.innerHTML = label.innerText
+        .split("")
+        .map(
+            (letter, i) =>
+                `<span style="transition-delay:${i * 60}ms">${letter}</span>`
+        )
+        .join("");
+});
+
+
+//switch between Login and Logout page
+/*
+let containerForm = document.querySelector(".container-form");
+let loginLink = document.querySelector(".loginLink");
+let logoutLink = document.querySelector(".logoutLink");
+
+logoutLink.addEventListener("click", () => {
+    containerForm.classList.add("active");
+});
+
+logoutLink.addEventListener("click", () => {
+    containerForm.classList.remove("active");
+}); */

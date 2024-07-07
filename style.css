@@ -483,6 +483,229 @@ header.sticky {
     transition: all 2s;
 }
 
+/* .container-form {
+    position: relative;
+    color: #fff;
+    width: 390px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: #f64482 -1px 1px 10px 1px inset,
+                #f64482 1px 0px 9px inset;
+    backdrop-filter: blur(.2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+
+.form-box {
+    width: 100%;
+}
+
+.close-form {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: #f64482 -1px 1px 10px inset,
+                 #f64482 1px 0px 9px 0px inset;
+    font-size: 1.5rem;
+    border-radius: 0 10px 0 10px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.close-form:hover i {
+    transition: all .4s ease;
+    transform: rotate(360deg);
+}
+
+.container-form h2 {
+    position: relative;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+}
+
+.container-form h2::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    border-radius: 3px;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-form .inputBox {
+    position: relative;
+    margin-bottom: 25px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 0px inset,
+                #f64482 0px -1px 6px 1px inset;
+    border-radius: 10px;
+}
+
+.inputBox input {
+    position: relative;
+    width: 90%;
+    padding: 13px;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    transition: .3s;
+}
+
+
+
+.inputBox i {
+    position: absolute;
+    right: 10px;
+    font-size: 1.4rem;
+    top: 10px;
+}
+
+.inputBox label {
+    position: absolute;
+    left: 10px;
+    top: 3px;
+    padding: 10px 0;
+    pointer-events: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.inputBox label span {
+    position: relative;
+    display: inline-flex;
+    letter-spacing: 0.05em;
+    transition: .2s ease-in-out;
+}
+
+.inputBox input:focus ~ label span,
+.inputBox input:valid ~ label span {
+     color: #fff;
+      letter-spacing: 0.15em;
+      transform: translateY(-23px);
+      font-weight: 600;
+}
+
+form .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: .9rem;
+    text-align: center;
+    margin: 0 16px 25px 16px;
+}
+
+.checkBox input[type=checkbox]{
+    position: relative;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.checkbox input[type=checkbox]:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 13px;
+    box-shadow: #f64482 0 0 11px 0 inset,
+                rgba(224, 93, 174, 0.5) 0 0 0 0 inset;
+    top: -1px;
+    left: -4px;
+    border: 1px solid #f64482;
+    background-color: transparent;
+}
+
+.checkbox input[type=checkbox]:checked:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+
+}
+
+.remember .forget {
+    font-weight: 500;
+    color: #f64482;
+    text-decoration: none;
+}
+
+.remember .forget:hover {
+    text-decoration: underline;
+}
+
+.inputBox input[type="submit"] {
+    width: 100%;
+    background: #f64482;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+ 
+.inputBox input[type="submit"]:hover {
+    box-shadow: 0 0 0.7em #f64482;
+    letter-spacing: 4px;
+}
+
+form p {
+    text-align: center;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+form p a {
+    font-weight: 500;
+    color: #f64482;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
+
+.signIn-page .remember {
+    justify-content: center;
+}
+
+.container-form.active {
+    height: 510px;
+}
+
+.container-form .signIn-page {
+    position: absolute;
+    width: 85%;
+    transform: translateY(400px);
+}
+
+.container-form.active .signIn-page {
+transition: none;
+transform: translateY(-500px);
+} */
+
+
 /* Keyframes */
 @keyframes rotate {
     from {
@@ -632,4 +855,5 @@ header.sticky {
         left: 12%;
         
     }
+
 }
